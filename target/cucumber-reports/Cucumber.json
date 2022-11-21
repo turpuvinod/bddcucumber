@@ -1,0 +1,152 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 14,
+        "name": "User should be able to login to the application",
+        "description": "",
+        "id": "login-feature-file;user-should-be-able-to-login-to-the-application;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4623213900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User is in login page",
+            "match": {
+              "location": "loginstudioStepdefination.user_is_in_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 297452000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User enters email id \"prashanthi.skvl@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "prashanthi.skvl@gmail.com",
+                  "offset": 22
+                }
+              ],
+              "location": "loginstudioStepdefination.user_enters_email_id(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 338327400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User enters password \"Test@123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Test@123",
+                  "offset": 22
+                }
+              ],
+              "location": "loginstudioStepdefination.user_enters_password(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3162150900,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User clicks the signin button",
+            "match": {
+              "location": "loginstudioStepdefination.user_clicks_the_signin_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1445785500,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User should be logged in successfully",
+            "match": {
+              "location": "loginstudioStepdefination.user_should_be_logged_in_successfully()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@login"
+          }
+        ]
+      },
+      {
+        "line": 16,
+        "name": "User should be able to logout from the application",
+        "description": "",
+        "id": "login-feature-file;user-should-be-able-to-logout-from-the-application",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3417047200,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User clicks the profile button",
+            "match": {
+              "location": "loginstudioStepdefination.user_clicks_the_profile_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 50519800,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "User clicks the signout button",
+            "match": {
+              "location": "loginstudioStepdefination.user_clicks_the_signout_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 971858900,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "User should be logged out successfully",
+            "match": {
+              "location": "loginstudioStepdefination.user_should_be_logged_out_successfully()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login feature file",
+    "description": "",
+    "id": "login-feature-file",
+    "keyword": "Feature",
+    "uri": "loginstudios.feature"
+  }
+]
